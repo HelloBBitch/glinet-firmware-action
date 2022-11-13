@@ -6,8 +6,13 @@ feeds:
     branch: master
 packages:
   - luci-app-mwan3
-
-
+  - app-meta-homebox
+  - luci-app-homebox
+  - luci-i18n-homebox-zh-cn
+  - app-meta-xunyou
+  - luci-app-xunyou
+  - luci-i18n-xunyou-zh-cn
+  - 
 
 diffconfig: |
   CONFIG_PACKAGE_wpad-basic=n
